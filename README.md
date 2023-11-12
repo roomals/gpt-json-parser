@@ -1,6 +1,6 @@
 # Conversation JSON Parser
 
-This repository contains Python and R scripts for parsing conversation data from JSON files.
+This repository contains Python and R scripts for parsing conversation data from ChatGpt JSON files.
 
 ## Core Components:
 
@@ -42,9 +42,8 @@ To use the Python script, follow these steps (consider using conda):
 1. Clone the repository:
    git clone https://github.com/roomals/gpt-json-parser.git
 2. cd conversation-json-parser
-3. pip install -r requirements.txt
-4. Update path in script by pointing it to your json file. Make sure your file is formated to the sample json included in this git.
-5. python3 Parsing_GPT_Python.py
+3. Update path in script by pointing it to your json file. Make sure your file is formated to the sample json included in this git.
+4. python3 Parsing_GPT_Python.py
 
 ### R Script
 
