@@ -2,7 +2,7 @@
 library(jsonlite)
 
 # Define the JSON file path and parsing the JSON
-json_file <- '/home/roomal/Documents/Convos_With_GPT/conversations.json'
+json_file <- '/home/user/Documents/Convos_With_GPT/conversations.json'
 json_data <- fromJSON(json_file)
 
 # Define a function to extract and write messages from a mapping
@@ -31,7 +31,7 @@ if ("mapping" %in% names(json_data)) {
 }
 
 # Create a Markdown file for the output
-fileConn <- file("/home/roomal/Documents/Convos_With_GPT/Test.md", "w")
+fileConn <- file("/home/user/Documents/Convos_With_GPT/Test.md", "w")
 
 # Add a date timestamp at the top of the document for record-keeping
 timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M:%S")
